@@ -20,7 +20,7 @@ public class Customer {
 	@NotNull(message = "is Required")
 	private Integer grade;
 	
-	@Pattern(regexp = "^[a-zA-Z0-9]{5}",message = "only 5 chars/digits")
+	@Pattern(regexp = "^[a-zA-Z0-9]{5}",message = "only 5 Chars/digits")
 	@NotNull(message = "is Required")
 
 	private String code;
